@@ -9,8 +9,13 @@ import Input from '@/components/Input/Input'
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { useRouter } from 'next/navigation'
 
+import libros from '@/data/library.json'
 
 const pantallaPerfil = () => {
+
+    const router = useRouter();
+    const [palabra, setPalabra] = useState('');
+    const resultados = [];
 
     const [topBarIsVisible, setTopBarIsVisible] = useState(true);
     const [contendoIsVisible, setContenidoIsVisible] = useState("DU");
@@ -78,14 +83,34 @@ const pantallaPerfil = () => {
 
                     </div>
                     <div className={styles.linea}></div>
+                    
                     <div className={styles.buscar}>
-                        <input
-                            type="text"
-                            placeholder="Ingresa la palabra clave"
-                            className={styles.inputBusqueda}
-                        />
-                        <button className={styles.boton}>Buscar</button>
+                        <input type="text" placeholder="Ingresa la palabra clave" className={styles.inputBusqueda} onChange={(e)=> setPalabra(e.target.value)}/>
+                        <button className={styles.boton} onClick={async(e)=>{
+
+                            e.preventDefault(); //Evita que el form actualice la pagina
+
+                            const palabra_lower = palabra.toLowerCase();
+                            console.log(palabra_lower);
+
+                            await libros.map((libro)=>{
+
+                            const titulo_lower = libro.titulo.toLowerCase();
+                            if(titulo_lower.indexOf(palabra_lower) != -1){
+
+                                resultados.push(libro);
+
+                            }
+                            })
+                            console.log(resultados);
+                            await localStorage.setItem("libros", JSON.stringify(resultados));
+                            router.push('/pantalla_resultado');
+
+                        }}>Buscar</button>
                     </div>
+
+                    <hr/>
+
                     <div className={styles.librosContainer}>
                         <div className={styles.libro}>
                             <div className={styles.circulo}>PP</div>

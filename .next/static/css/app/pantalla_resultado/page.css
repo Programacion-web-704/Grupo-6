@@ -1,0 +1,319 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./src/app/pantalla_resultado/result.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+}
+
+.contenido {
+  flex: 1 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.containerTitulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.titulo {
+  font-size: 24px;
+  color: #333;
+}
+
+.nuevoRecursoBtn {
+  padding: 10px 20px;
+  background-color: #6750a4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.nuevoRecursoBtn:hover {
+  background-color: #542c85;
+}
+
+.linea {
+  height: 2px;
+  background-color: #ddd;
+  margin-bottom: 20px;
+}
+
+.buscar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inputBusqueda {
+  flex: 1 1;
+  padding: 10px;
+  border: 1px solid #6750a4;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.boton {
+  background-color: #6750a4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.boton:hover {
+  background-color: #542c85;
+}
+
+.librosContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.libro {
+  flex: 1 1;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.circulo {
+  width: 40px;
+  height: 40px;
+  background-color: #6750a4;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.libro h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.libro img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.libro p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.reservarBtn,
+.boton2 {
+  background-color: #6750a4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.reservarBtn:hover,
+.boton2:hover {
+  background-color: #542c85;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/components/TopBar/TopBar.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.TopBar_container__uTi_S{
+    width: 100%;
+    background-color: #F3EDF7;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.TopBar_C1__rXfhk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 5%;
+}
+
+.TopBar_C2__G13WF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+}
+
+.TopBar_C3__PH8iS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 5%;
+}
+
+.TopBar_h5__I5GqT{
+    margin: 0;
+
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/components/LeftBar/LeftBar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.LeftBar_container__UnvFb{
+    background-color: #D9D9D9;
+    width: 150px;
+}
+
+
+.LeftBar_parrafo___nEAm{
+    text-align: center;
+    font-size: 15px;
+}
+
+.LeftBar_lnk__1ns7F{
+    text-decoration: none;
+    color:rebeccapurple;
+    text-decoration: underline;
+
+  }
+  
+.LeftBar_lnk__1ns7F:hover{
+    color: black;
+}
+
+.LeftBar_menu__P_mym{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.LeftBar_menu__P_mym:hover{
+    background-color: #906f9c;
+}
+
+.LeftBar_v1__6YcoA{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/components/Input/Input.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Input_container__7Goxk{
+	position: relative;
+	
+}
+
+.Input_label__mcV2a{
+	
+	position: absolute;
+	background-color:white;
+	margin-left:10px;
+	
+}
+
+.Input_input__7s5ug{
+	display: block;
+	margin-bottom: 2rem;
+	padding: .5rem 2rem;
+	border-radius: 5px;
+	margin-top: 13px;
+	border-radius: 10px;
+	border: 0;
+
+	outline: solid 2px rebeccapurple;
+	
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./src/components/Resultados/Resultados.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilos para cada cuadro de libro */
+.book-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+/* Estilos para las imágenes de los libros */
+.book-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos para los títulos de los libros */
+.book-item h3 {
+    margin: 10px 0;
+}
+
+/* Estilos para los detalles del libro (ISBN, autores, editor) */
+.book-item p {
+    margin: 5px 0;
+}
+
+/*Boton para volver a buscar*/
+.volver_buscar_button {
+    margin-bottom: 10px;
+}
+
+/*Boton para reservar libros*/
+.reservar_button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #542c85;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Boton para ir a la pagina de reservas*/
+.reservas_button {
+    margin-inline: 10px;
+}

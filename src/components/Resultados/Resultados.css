@@ -1,0 +1,57 @@
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilos para cada cuadro de libro */
+.book-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+/* Estilos para las imágenes de los libros */
+.book-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos para los títulos de los libros */
+.book-item h3 {
+    margin: 10px 0;
+}
+
+/* Estilos para los detalles del libro (ISBN, autores, editor) */
+.book-item p {
+    margin: 5px 0;
+}
+
+/*Boton para volver a buscar*/
+.volver_buscar_button {
+    margin-bottom: 10px;
+}
+
+/*Boton para reservar libros*/
+.reservar_button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #542c85;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Boton para ir a la pagina de reservas*/
+.reservas_button {
+    margin-inline: 10px;
+}

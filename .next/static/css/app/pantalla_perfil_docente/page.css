@@ -1,0 +1,213 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/components/TopBar/TopBar.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.TopBar_container__uTi_S{
+    width: 100%;
+    background-color: #F3EDF7;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.TopBar_C1__rXfhk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 5%;
+}
+
+.TopBar_C2__G13WF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+}
+
+.TopBar_C3__PH8iS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 5%;
+}
+
+.TopBar_h5__I5GqT{
+    margin: 0;
+
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/components/LeftBar/LeftBar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.LeftBar_container__UnvFb{
+    background-color: #D9D9D9;
+    width: 150px;
+}
+
+
+.LeftBar_parrafo___nEAm{
+    text-align: center;
+    font-size: 15px;
+}
+
+.LeftBar_lnk__1ns7F{
+    text-decoration: none;
+    color:rebeccapurple;
+    text-decoration: underline;
+
+  }
+  
+.LeftBar_lnk__1ns7F:hover{
+    color: black;
+}
+
+.LeftBar_menu__P_mym{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.LeftBar_menu__P_mym:hover{
+    background-color: #906f9c;
+}
+
+.LeftBar_v1__6YcoA{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/components/Input/Input.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Input_container__7Goxk{
+	position: relative;
+	
+}
+
+.Input_label__mcV2a{
+	
+	position: absolute;
+	background-color:white;
+	margin-left:10px;
+	
+}
+
+.Input_input__7s5ug{
+	display: block;
+	margin-bottom: 2rem;
+	padding: .5rem 2rem;
+	border-radius: 5px;
+	margin-top: 13px;
+	border-radius: 10px;
+	border: 0;
+
+	outline: solid 2px rebeccapurple;
+	
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/pantalla_perfil_docente/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.page_container__lRfQK {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page_main__hsW_s {
+  height: 100%;
+  display: flex;
+}
+
+.page_contenido__pa_BC {
+  color: #6750A4;
+  flex: 1 1;
+  padding: 20px;
+  background-color: #fef7ff;
+  border-radius: 0.4rem;
+}
+
+.page_containerTitulo__1x2a_ {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page_titulo__EYFbC {
+  color: black;
+  width: 50%;
+  margin: 0px;
+}
+
+.page_linea__7V_2d {
+  width: 100%;
+  height: 2px;
+  background-color: silver;
+  margin-bottom: 20px;
+}
+
+.page_selector__PjVHa {
+  text-align: center;
+}
+
+.page_button-group___fZAN {
+  margin-bottom: 20px;
+}
+
+.page_button-group___fZAN .page_btn__IsZTf {
+  background-color: #6750a4;
+  color: white;
+  border: none;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.page_button-group___fZAN .page_btn__IsZTf.page_active__j0Kqz {
+  background-color: #79747e;
+}
+
+.page_input1__9hlsz {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left: 820px;
+}
+
+.page_input1__9hlsz .page_input-group__7ec3k {
+  margin-bottom: 10px;
+}
+
+.page_input1__9hlsz .page_input-group__7ec3k:last-child {
+  margin-bottom: 0;
+}
+
+.page_guardar___z2tq {
+  text-align: center;
+}
+
+.page_guardar___z2tq button {
+  background-color: #6750a4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.page_profile-image__zcOY7 {
+  width: 279px;
+  height: 253px;
+  top: 254px;
+  left: 187px;
+  position: absolute;
+}
+
+

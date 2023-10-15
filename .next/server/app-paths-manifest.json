@@ -1,0 +1,6 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/pantalla_biblioteca/page": "app/pantalla_biblioteca/page.js",
+  "/pantalla_resultado/page": "app/pantalla_resultado/page.js",
+  "/libro/[id]/page": "app/libro/[id]/page.js"
+}
