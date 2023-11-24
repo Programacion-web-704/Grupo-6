@@ -1,89 +1,126 @@
 self.__RSC_CSS_MANIFEST={
   "cssImports": {
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\page.js": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\page.module.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css"
     ],
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\layout.js": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\globals.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\layout.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\globals.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css"
     ],
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_biblioteca\\page.js": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_biblioteca\\page.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\TopBar\\TopBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\LeftBar\\LeftBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\Input\\Input.module.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\registro\\page.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"
     ],
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_resultado\\page.js": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_resultado\\result.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\TopBar\\TopBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\LeftBar\\LeftBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\Input\\Input.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\Resultados\\Resultados.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\page.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\style.css"
     ],
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_perfil_docente\\page.js": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_perfil_docente\\page.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\TopBar\\TopBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\LeftBar\\LeftBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\Input\\Input.module.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\layout.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css"
     ],
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_principal_docente\\page.js": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\TopBar\\TopBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\LeftBar\\LeftBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_principal_docente\\page.module.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\page.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\style.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\components\\Chip_Reserva\\style.css"
     ],
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\libro\\[id]\\page.js": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\libro\\[id]\\Libro.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\layout.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\perfil\\page.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\components\\Chip_Cursos\\style.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\perfil\\layout.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\page.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\style.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\layout.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\page.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\citas.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\layout.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\page.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\style.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\layout.js": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css"
     ]
   },
   "cssModules": {
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\page": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\globals.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\page.module.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\globals.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css"
     ],
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_biblioteca\\page": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\globals.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\TopBar\\TopBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\LeftBar\\LeftBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\Input\\Input.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_biblioteca\\page.module.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\registro\\page": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\globals.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css"
     ],
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_resultado\\page": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\globals.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_resultado\\result.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\TopBar\\TopBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\LeftBar\\LeftBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\Input\\Input.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\Resultados\\Resultados.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\page": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\style.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\globals.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ],
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_perfil_docente\\page": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\globals.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\TopBar\\TopBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\LeftBar\\LeftBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\Input\\Input.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_perfil_docente\\page.module.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\page": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\globals.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\style.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\components\\Chip_Reserva\\style.css"
     ],
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_principal_docente\\page": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\globals.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\TopBar\\TopBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\components\\LeftBar\\LeftBar.module.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\pantalla_principal_docente\\page.module.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\perfil\\page": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\globals.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\components\\Chip_Cursos\\style.css"
     ],
-    "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\libro\\[id]\\page": [
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\globals.css",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "C:\\Users\\User\\Documents\\GitHub\\Grupo-6\\src\\app\\libro\\[id]\\Libro.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\page": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\style.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\globals.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\page": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\citas.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\globals.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\page": [
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\style.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\globals.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css",
+      "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ]
   }
 }

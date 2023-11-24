@@ -1,46 +1,82 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/pantalla_resultado/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/pantalla_resultado/page.css",
-      "static/chunks/app/pantalla_resultado/page.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
-    "/pantalla_perfil_docente/page": [
+    "/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/pantalla_perfil_docente/page.css",
-      "static/chunks/app/pantalla_perfil_docente/page.js"
+      "static/css/app/dashboard/page.css",
+      "static/chunks/app/dashboard/page.js"
     ],
-    "/pantalla_principal_docente/page": [
+    "/dashboard/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/pantalla_principal_docente/page.css",
-      "static/chunks/app/pantalla_principal_docente/page.js"
+      "static/css/app/dashboard/layout.css",
+      "static/chunks/app/dashboard/layout.js"
     ],
-    "/pantalla_biblioteca/page": [
+    "/registro/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/pantalla_biblioteca/page.css",
-      "static/chunks/app/pantalla_biblioteca/page.js"
+      "static/css/app/registro/page.css",
+      "static/chunks/app/registro/page.js"
     ],
-    "/libro/[id]/page": [
+    "/reserva_busq/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/libro/[id]/page.css",
-      "static/chunks/app/libro/[id]/page.js"
+      "static/css/app/reserva_busq/page.css",
+      "static/chunks/app/reserva_busq/page.js"
+    ],
+    "/reserva_busq/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/reserva_busq/layout.css",
+      "static/chunks/app/reserva_busq/layout.js"
+    ],
+    "/perfil/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/perfil/page.css",
+      "static/chunks/app/perfil/page.js"
+    ],
+    "/perfil/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/perfil/layout.css",
+      "static/chunks/app/perfil/layout.js"
+    ],
+    "/citas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/citas/page.css",
+      "static/chunks/app/citas/page.js"
+    ],
+    "/citas/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/citas/layout.css",
+      "static/chunks/app/citas/layout.js"
+    ],
+    "/detalle/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/detalle/[id]/page.css",
+      "static/chunks/app/detalle/[id]/page.js"
+    ],
+    "/detalle/[id]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/detalle/[id]/layout.css",
+      "static/chunks/app/detalle/[id]/layout.js"
     ]
   }
 }

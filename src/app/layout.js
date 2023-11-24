@@ -1,29 +1,28 @@
-"use client"
-
-import 'bootstrap/dist/css/bootstrap.css'; // Add this line
-import 'bootstrap/dist/js/bootstrap.bundle.js' ;
-
+'use client';
 import './globals.css'
 import { Inter } from 'next/font/google'
-//import { useEffect } from 'react';
-import dynamic from "next/dynamic";
+import { useEffect } from "react"; //Esto es para cargar el js de bootstrap
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import styles from './page.module.css'
+import 'animate.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser,faCalendarDay } from '@fortawesome/free-solid-svg-icons'
 
 const inter = Inter({ subsets: ['latin'] })
 
-function RootLayout({ children }) {
 
-  return (
+ 
+export default function LoginLayout({ children }) {
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
+ return (
     <html lang="en">
-      <head>
-
-      </head>
-      <body className={inter.className}>{children}
-      
+      <body className={inter.className}>
+        {children}
       </body>
     </html>
   )
 }
-
-export default dynamic(() => Promise.resolve(RootLayout), {
-  ssr: false,
-});

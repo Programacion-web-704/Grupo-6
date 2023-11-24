@@ -1,6 +1,4 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/pantalla_biblioteca/page": "app/pantalla_biblioteca/page.js",
-  "/pantalla_resultado/page": "app/pantalla_resultado/page.js",
-  "/libro/[id]/page": "app/libro/[id]/page.js"
+  "/dashboard/page": "app/dashboard/page.js",
+  "/detalle/[id]/page": "app/detalle/[id]/page.js"
 }

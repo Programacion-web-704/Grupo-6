@@ -1,6 +1,16 @@
 ### PERSONAS
 
-GET http://localhost:3080/personas
+POST http://localhost:3080/personas/login
+Content-Type: application/json
+
+{   
+    "nombre": "Sebas",
+    "password": "123"
+}
+
+###
+
+GET http://localhost:3080/personas/
 
 ###
 
@@ -18,8 +28,8 @@ Content-Type: application/json
     "tipoDocumento": "DNI",
     "dni": 123126781,
     "rol": 2,
-    "email": "ltorres@gmail.com",
-    "password": "ltorres"
+    "email": "123@gmail.com",
+    "password": "123"
 }
 
 ###
@@ -28,14 +38,8 @@ PUT http://localhost:3080/personas/1
 Content-Type: application/json
 
 {
-    "idPersona": 1,
     "nombre": "Sebastian",
-    "apellido": "Camayo",
-    "tipoDocumento": "DNI",
-    "dni": 987654321,
-    "rol": 2,
-    "email": "ltorres@gmail.com",
-    "password": "ltorres"
+    "apellido": "Camayo"
 }
 
 ###
@@ -56,9 +60,8 @@ POST http://localhost:3080/reserva
 Content-Type: application/json
 
 {
-    "fechaInicial": "fechaInicial",
-    "fechaFinal": "fechaFinal",
-    "dias": 4
+    "dias": 4,
+    "usuarioId": 1
 }
 
 ###
@@ -90,8 +93,8 @@ POST http://localhost:3080/libro
 Content-Type: application/json
 
 {
-    "titulo": "aaaaa",
-    "autor": "aaaaa",
+    "titulo": "Hola",
+    "autor": "Weed",
     "editorial": "ssss",
     "categoria": "d",
     "anio": 2020,
