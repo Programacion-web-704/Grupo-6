@@ -742,6 +742,58 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/registro/page.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/registro/page.js",
+        "name": "*",
+        "chunks": [
+          "app/registro/page:static/chunks/app/registro/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/registro/page.js",
+        "name": "",
+        "chunks": [
+          "app/registro/page:static/chunks/app/registro/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/registro/page.js",
+        "name": "default",
+        "chunks": [
+          "app/registro/page:static/chunks/app/registro/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/layout.js": {
       "*": {
         "id": "(sc_client)/./src/app/layout.js",
@@ -768,28 +820,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
+    "(app-client)/./src/app/dashboard/page.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./src/app/dashboard/page.js",
         "name": "*",
         "chunks": [
-          "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+          "app/dashboard/page:static/chunks/app/dashboard/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./src/app/dashboard/page.js",
         "name": "",
         "chunks": [
-          "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+          "app/dashboard/page:static/chunks/app/dashboard/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./src/app/dashboard/page.js",
         "name": "default",
         "chunks": [
-          "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+          "app/dashboard/page:static/chunks/app/dashboard/page.js"
         ],
         "async": false
       }
@@ -816,32 +868,6 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/dashboard/page.js": {
-      "*": {
-        "id": "(sc_client)/./src/app/dashboard/page.js",
-        "name": "*",
-        "chunks": [
-          "app/dashboard/page:static/chunks/app/dashboard/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/dashboard/page.js",
-        "name": "",
-        "chunks": [
-          "app/dashboard/page:static/chunks/app/dashboard/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/dashboard/page.js",
-        "name": "default",
-        "chunks": [
-          "app/dashboard/page:static/chunks/app/dashboard/page.js"
         ],
         "async": false
       }
@@ -877,7 +903,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/sidebar.js",
         "name": "*",
         "chunks": [
-          "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
         ],
         "async": false
       },
@@ -885,7 +911,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/sidebar.js",
         "name": "",
         "chunks": [
-          "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
         ],
         "async": false
       },
@@ -893,85 +919,59 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/sidebar.js",
         "name": "default",
         "chunks": [
-          "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
         ],
         "async": false
       }
     },
-    "(app-client)/./src/app/registro/page.js": {
+    "(app-client)/./src/app/biblioteca/page.js": {
       "*": {
-        "id": "(sc_client)/./src/app/registro/page.js",
+        "id": "(sc_client)/./src/app/biblioteca/page.js",
         "name": "*",
         "chunks": [
-          "app/registro/page:static/chunks/app/registro/page.js"
+          "app/biblioteca/page:static/chunks/app/biblioteca/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/registro/page.js",
+        "id": "(sc_client)/./src/app/biblioteca/page.js",
         "name": "",
         "chunks": [
-          "app/registro/page:static/chunks/app/registro/page.js"
+          "app/biblioteca/page:static/chunks/app/biblioteca/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/registro/page.js",
+        "id": "(sc_client)/./src/app/biblioteca/page.js",
         "name": "default",
         "chunks": [
-          "app/registro/page:static/chunks/app/registro/page.js"
+          "app/biblioteca/page:static/chunks/app/biblioteca/page.js"
         ],
         "async": false
       }
     },
-    "(app-client)/./src/app/reserva_busq/page.js": {
+    "(app-client)/./src/app/biblioteca/layout.js": {
       "*": {
-        "id": "(sc_client)/./src/app/reserva_busq/page.js",
+        "id": "(sc_client)/./src/app/biblioteca/layout.js",
         "name": "*",
         "chunks": [
-          "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
+          "app/biblioteca/layout:static/chunks/app/biblioteca/layout.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/reserva_busq/page.js",
+        "id": "(sc_client)/./src/app/biblioteca/layout.js",
         "name": "",
         "chunks": [
-          "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
+          "app/biblioteca/layout:static/chunks/app/biblioteca/layout.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/reserva_busq/page.js",
+        "id": "(sc_client)/./src/app/biblioteca/layout.js",
         "name": "default",
         "chunks": [
-          "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/reserva_busq/layout.js": {
-      "*": {
-        "id": "(sc_client)/./src/app/reserva_busq/layout.js",
-        "name": "*",
-        "chunks": [
-          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/reserva_busq/layout.js",
-        "name": "",
-        "chunks": [
-          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/reserva_busq/layout.js",
-        "name": "default",
-        "chunks": [
-          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
+          "app/biblioteca/layout:static/chunks/app/biblioteca/layout.js"
         ],
         "async": false
       }
@@ -1028,54 +1028,54 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/app/citas/page.js": {
+    "(app-client)/./src/app/reserFrecuentes/page.js": {
       "*": {
-        "id": "(sc_client)/./src/app/citas/page.js",
+        "id": "(sc_client)/./src/app/reserFrecuentes/page.js",
         "name": "*",
         "chunks": [
-          "app/citas/page:static/chunks/app/citas/page.js"
+          "app/reserFrecuentes/page:static/chunks/app/reserFrecuentes/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/citas/page.js",
+        "id": "(sc_client)/./src/app/reserFrecuentes/page.js",
         "name": "",
         "chunks": [
-          "app/citas/page:static/chunks/app/citas/page.js"
+          "app/reserFrecuentes/page:static/chunks/app/reserFrecuentes/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/citas/page.js",
+        "id": "(sc_client)/./src/app/reserFrecuentes/page.js",
         "name": "default",
         "chunks": [
-          "app/citas/page:static/chunks/app/citas/page.js"
+          "app/reserFrecuentes/page:static/chunks/app/reserFrecuentes/page.js"
         ],
         "async": false
       }
     },
-    "(app-client)/./src/app/citas/layout.js": {
+    "(app-client)/./src/app/pantalla_registro_libro/page.js": {
       "*": {
-        "id": "(sc_client)/./src/app/citas/layout.js",
+        "id": "(sc_client)/./src/app/pantalla_registro_libro/page.js",
         "name": "*",
         "chunks": [
-          "app/citas/layout:static/chunks/app/citas/layout.js"
+          "app/pantalla_registro_libro/page:static/chunks/app/pantalla_registro_libro/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/citas/layout.js",
+        "id": "(sc_client)/./src/app/pantalla_registro_libro/page.js",
         "name": "",
         "chunks": [
-          "app/citas/layout:static/chunks/app/citas/layout.js"
+          "app/pantalla_registro_libro/page:static/chunks/app/pantalla_registro_libro/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/citas/layout.js",
+        "id": "(sc_client)/./src/app/pantalla_registro_libro/page.js",
         "name": "default",
         "chunks": [
-          "app/citas/layout:static/chunks/app/citas/layout.js"
+          "app/pantalla_registro_libro/page:static/chunks/app/pantalla_registro_libro/page.js"
         ],
         "async": false
       }
@@ -1131,52 +1131,197 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/app/reserFrecuentes/layout.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/reserFrecuentes/layout.js",
+        "name": "*",
+        "chunks": [
+          "app/reserFrecuentes/layout:static/chunks/app/reserFrecuentes/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/reserFrecuentes/layout.js",
+        "name": "",
+        "chunks": [
+          "app/reserFrecuentes/layout:static/chunks/app/reserFrecuentes/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/reserFrecuentes/layout.js",
+        "name": "default",
+        "chunks": [
+          "app/reserFrecuentes/layout:static/chunks/app/reserFrecuentes/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/reserva_busq/page.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/reserva_busq/page.js",
+        "name": "*",
+        "chunks": [
+          "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/reserva_busq/page.js",
+        "name": "",
+        "chunks": [
+          "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/reserva_busq/page.js",
+        "name": "default",
+        "chunks": [
+          "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/reservas/page.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/reservas/page.js",
+        "name": "*",
+        "chunks": [
+          "app/reservas/page:static/chunks/app/reservas/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/reservas/page.js",
+        "name": "",
+        "chunks": [
+          "app/reservas/page:static/chunks/app/reservas/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/reservas/page.js",
+        "name": "default",
+        "chunks": [
+          "app/reservas/page:static/chunks/app/reservas/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/reservas/layout.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/reservas/layout.js",
+        "name": "*",
+        "chunks": [
+          "app/reservas/layout:static/chunks/app/reservas/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/reservas/layout.js",
+        "name": "",
+        "chunks": [
+          "app/reservas/layout:static/chunks/app/reservas/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/reservas/layout.js",
+        "name": "default",
+        "chunks": [
+          "app/reservas/layout:static/chunks/app/reservas/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/reserva_busq/layout.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/reserva_busq/layout.js",
+        "name": "*",
+        "chunks": [
+          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/reserva_busq/layout.js",
+        "name": "",
+        "chunks": [
+          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/reserva_busq/layout.js",
+        "name": "default",
+        "chunks": [
+          "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\layout": [
-      "static/css/app/layout.css"
-    ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page": [
-      "static/css/app/page.css"
-    ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\page": [
-      "static/css/app/dashboard/page.css"
-    ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\layout": [
-      "static/css/app/dashboard/layout.css"
-    ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\registro\\page": [
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\registro\\page": [
       "static/css/app/registro/page.css"
     ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\page": [
-      "static/css/app/reserva_busq/page.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\layout": [
+      "static/css/app/layout.css"
     ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\layout": [
-      "static/css/app/reserva_busq/layout.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\dashboard\\page": [
+      "static/css/app/dashboard/page.css"
     ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\perfil\\page": [
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\page": [
+      "static/css/app/page.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\dashboard\\layout": [
+      "static/css/app/dashboard/layout.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\biblioteca\\page": [
+      "static/css/app/biblioteca/page.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\biblioteca\\layout": [
+      "static/css/app/biblioteca/layout.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\perfil\\page": [
       "static/css/app/perfil/page.css"
     ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\perfil\\layout": [
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\perfil\\layout": [
       "static/css/app/perfil/layout.css"
     ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\page": [
-      "static/css/app/citas/page.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserFrecuentes\\page": [
+      "static/css/app/reserFrecuentes/page.css"
     ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\layout": [
-      "static/css/app/citas/layout.css"
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\pantalla_registro_libro\\page": [
+      "static/css/app/pantalla_registro_libro/page.css"
     ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\page": [
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\detalle\\[id]\\page": [
       "static/css/app/detalle/[id]/page.css"
     ],
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\layout": [
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\detalle\\[id]\\layout": [
       "static/css/app/detalle/[id]/layout.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserFrecuentes\\layout": [
+      "static/css/app/reserFrecuentes/layout.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserva_busq\\page": [
+      "static/css/app/reserva_busq/page.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reservas\\page": [
+      "static/css/app/reservas/page.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reservas\\layout": [
+      "static/css/app/reservas/layout.css"
+    ],
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserva_busq\\layout": [
+      "static/css/app/reserva_busq/layout.css"
     ]
   },
   "clientModules": {
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -1184,7 +1329,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -1192,7 +1337,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1200,7 +1345,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1208,7 +1353,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1216,7 +1361,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1224,7 +1369,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -1232,7 +1377,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -1240,7 +1385,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1248,7 +1393,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1256,7 +1401,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#TODO-APP": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#TODO-APP": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "TODO-APP",
       "chunks": [
@@ -1264,7 +1409,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#TODO-APP": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#TODO-APP": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "TODO-APP",
       "chunks": [
@@ -1272,7 +1417,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#__NA": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#__NA": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "__NA",
       "chunks": [
@@ -1280,7 +1425,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#__NA": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#__NA": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "__NA",
       "chunks": [
@@ -1288,7 +1433,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#location": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#location": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "location",
       "chunks": [
@@ -1296,7 +1441,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#location": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#location": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "location",
       "chunks": [
@@ -1304,7 +1449,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#\"http": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#\"http": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "\"http",
       "chunks": [
@@ -1312,7 +1457,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#\"http": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#\"http": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "\"http",
       "chunks": [
@@ -1320,7 +1465,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#searchParams": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#searchParams": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "searchParams",
       "chunks": [
@@ -1328,7 +1473,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#searchParams": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#searchParams": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "searchParams",
       "chunks": [
@@ -1336,7 +1481,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#pathname": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pathname",
       "chunks": [
@@ -1344,7 +1489,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pathname": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pathname",
       "chunks": [
@@ -1352,7 +1497,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#type": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#type": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "type",
       "chunks": [
@@ -1360,7 +1505,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#type": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#type": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "type",
       "chunks": [
@@ -1368,7 +1513,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#cache": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#cache": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "cache",
       "chunks": [
@@ -1376,7 +1521,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#cache": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#cache": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "cache",
       "chunks": [
@@ -1384,7 +1529,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#status": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#status": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "status",
       "chunks": [
@@ -1392,7 +1537,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#status": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#status": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "status",
       "chunks": [
@@ -1400,7 +1545,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#data": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#data": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "data",
       "chunks": [
@@ -1408,7 +1553,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#data": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#data": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "data",
       "chunks": [
@@ -1416,7 +1561,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#subTreeData": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#subTreeData": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "subTreeData",
       "chunks": [
@@ -1424,7 +1569,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#subTreeData": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#subTreeData": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "subTreeData",
       "chunks": [
@@ -1432,7 +1577,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#parallelRoutes": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#parallelRoutes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "parallelRoutes",
       "chunks": [
@@ -1440,7 +1585,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#parallelRoutes": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#parallelRoutes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "parallelRoutes",
       "chunks": [
@@ -1448,7 +1593,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#mutable": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#mutable": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "mutable",
       "chunks": [
@@ -1456,7 +1601,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#mutable": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#mutable": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "mutable",
       "chunks": [
@@ -1464,7 +1609,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#isExternalUrl": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#isExternalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "isExternalUrl",
       "chunks": [
@@ -1472,7 +1617,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#isExternalUrl": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#isExternalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "isExternalUrl",
       "chunks": [
@@ -1480,7 +1625,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#locationSearch": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#locationSearch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "locationSearch",
       "chunks": [
@@ -1488,7 +1633,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#locationSearch": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#locationSearch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "locationSearch",
       "chunks": [
@@ -1496,7 +1641,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#back": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#back": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "back",
       "chunks": [
@@ -1504,7 +1649,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#back": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#back": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "back",
       "chunks": [
@@ -1512,7 +1657,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#forward": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#forward": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "forward",
       "chunks": [
@@ -1520,7 +1665,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#forward": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#forward": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "forward",
       "chunks": [
@@ -1528,7 +1673,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#prefetch": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#prefetch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "prefetch",
       "chunks": [
@@ -1536,7 +1681,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#prefetch": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#prefetch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "prefetch",
       "chunks": [
@@ -1544,7 +1689,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#kind": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#kind": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "kind",
       "chunks": [
@@ -1552,7 +1697,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#kind": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#kind": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "kind",
       "chunks": [
@@ -1560,7 +1705,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#replace": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#replace": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "replace",
       "chunks": [
@@ -1568,7 +1713,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#replace": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#replace": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "replace",
       "chunks": [
@@ -1576,7 +1721,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#push": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#push": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "push",
       "chunks": [
@@ -1584,7 +1729,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#push": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#push": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "push",
       "chunks": [
@@ -1592,7 +1737,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#refresh": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#refresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "refresh",
       "chunks": [
@@ -1600,7 +1745,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#refresh": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#refresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "refresh",
       "chunks": [
@@ -1608,7 +1753,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#origin": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#origin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "origin",
       "chunks": [
@@ -1616,7 +1761,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#origin": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#origin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "origin",
       "chunks": [
@@ -1624,7 +1769,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#fastRefresh": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#fastRefresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "fastRefresh",
       "chunks": [
@@ -1632,7 +1777,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#fastRefresh": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#fastRefresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "fastRefresh",
       "chunks": [
@@ -1640,7 +1785,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#router": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "router",
       "chunks": [
@@ -1648,7 +1793,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#router": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "router",
       "chunks": [
@@ -1656,7 +1801,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#(eg": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#(eg": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "(eg",
       "chunks": [
@@ -1664,7 +1809,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#(eg": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#(eg": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "(eg",
       "chunks": [
@@ -1672,7 +1817,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#url": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#url": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "url",
       "chunks": [
@@ -1680,7 +1825,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#url": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#url": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "url",
       "chunks": [
@@ -1688,7 +1833,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#tree": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#tree": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "tree",
       "chunks": [
@@ -1696,7 +1841,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#tree": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#tree": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "tree",
       "chunks": [
@@ -1704,7 +1849,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#notFound": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#notFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFound",
       "chunks": [
@@ -1712,7 +1857,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFound": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFound",
       "chunks": [
@@ -1720,7 +1865,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#notFoundStyles": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#notFoundStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFoundStyles",
       "chunks": [
@@ -1728,7 +1873,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFoundStyles": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#notFoundStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFoundStyles",
       "chunks": [
@@ -1736,7 +1881,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#asNotFound": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#asNotFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "asNotFound",
       "chunks": [
@@ -1744,7 +1889,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#asNotFound": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#asNotFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "asNotFound",
       "chunks": [
@@ -1752,7 +1897,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#pushRef": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#pushRef": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pushRef",
       "chunks": [
@@ -1760,7 +1905,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pushRef": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#pushRef": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pushRef",
       "chunks": [
@@ -1768,7 +1913,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#canonicalUrl": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#canonicalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "canonicalUrl",
       "chunks": [
@@ -1776,7 +1921,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#canonicalUrl": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#canonicalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "canonicalUrl",
       "chunks": [
@@ -1784,7 +1929,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#sync": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#sync": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "sync",
       "chunks": [
@@ -1792,7 +1937,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#sync": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#sync": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "sync",
       "chunks": [
@@ -1800,7 +1945,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#value": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "value",
       "chunks": [
@@ -1808,7 +1953,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#value": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "value",
       "chunks": [
@@ -1816,7 +1961,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#childNodes": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#childNodes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "childNodes",
       "chunks": [
@@ -1824,7 +1969,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#childNodes": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#childNodes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "childNodes",
       "chunks": [
@@ -1832,7 +1977,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#assetPrefix": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#assetPrefix": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "assetPrefix",
       "chunks": [
@@ -1840,7 +1985,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#assetPrefix": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#assetPrefix": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "assetPrefix",
       "chunks": [
@@ -1848,7 +1993,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\app-router.js#errorComponent": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\app-router.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "errorComponent",
       "chunks": [
@@ -1856,7 +2001,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#errorComponent": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "errorComponent",
       "chunks": [
@@ -1864,7 +2009,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -1872,7 +2017,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -1880,7 +2025,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -1888,7 +2033,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -1896,7 +2041,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -1904,7 +2049,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -1912,7 +2057,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -1920,7 +2065,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -1928,7 +2073,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -1936,7 +2081,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -1944,7 +2089,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#error": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#error": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "error",
       "chunks": [
@@ -1952,7 +2097,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#error": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#error": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "error",
       "chunks": [
@@ -1960,7 +2105,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#https": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#https": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "https",
       "chunks": [
@@ -1968,7 +2113,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#https": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#https": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "https",
       "chunks": [
@@ -1976,7 +2121,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontFamily": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontFamily": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontFamily",
       "chunks": [
@@ -1984,7 +2129,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontFamily": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontFamily": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontFamily",
       "chunks": [
@@ -1992,7 +2137,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#height": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#height": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "height",
       "chunks": [
@@ -2000,7 +2145,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#height": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#height": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "height",
       "chunks": [
@@ -2008,7 +2153,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#textAlign": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#textAlign": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "textAlign",
       "chunks": [
@@ -2016,7 +2161,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#textAlign": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#textAlign": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "textAlign",
       "chunks": [
@@ -2024,7 +2169,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#display": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#display": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "display",
       "chunks": [
@@ -2032,7 +2177,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#display": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#display": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "display",
       "chunks": [
@@ -2040,7 +2185,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#flexDirection": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#flexDirection": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "flexDirection",
       "chunks": [
@@ -2048,7 +2193,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#flexDirection": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#flexDirection": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "flexDirection",
       "chunks": [
@@ -2056,7 +2201,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#alignItems": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#alignItems": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "alignItems",
       "chunks": [
@@ -2064,7 +2209,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#alignItems": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#alignItems": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "alignItems",
       "chunks": [
@@ -2072,7 +2217,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#justifyContent": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#justifyContent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "justifyContent",
       "chunks": [
@@ -2080,7 +2225,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#justifyContent": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#justifyContent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "justifyContent",
       "chunks": [
@@ -2088,7 +2233,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#desc": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#desc": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "desc",
       "chunks": [
@@ -2096,7 +2241,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#desc": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#desc": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "desc",
       "chunks": [
@@ -2104,7 +2249,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#text": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#text": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "text",
       "chunks": [
@@ -2112,7 +2257,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#text": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#text": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "text",
       "chunks": [
@@ -2120,7 +2265,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontSize": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontSize": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontSize",
       "chunks": [
@@ -2128,7 +2273,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontSize": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontSize": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontSize",
       "chunks": [
@@ -2136,7 +2281,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontWeight": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#fontWeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontWeight",
       "chunks": [
@@ -2144,7 +2289,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontWeight": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#fontWeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontWeight",
       "chunks": [
@@ -2152,7 +2297,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#lineHeight": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#lineHeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "lineHeight",
       "chunks": [
@@ -2160,7 +2305,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#lineHeight": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#lineHeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "lineHeight",
       "chunks": [
@@ -2168,7 +2313,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#margin": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#margin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "margin",
       "chunks": [
@@ -2176,7 +2321,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#margin": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#margin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "margin",
       "chunks": [
@@ -2184,7 +2329,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#reset": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2192,7 +2337,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#reset": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2200,7 +2345,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#style": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#style": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "style",
       "chunks": [
@@ -2208,7 +2353,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#style": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#style": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "style",
       "chunks": [
@@ -2216,7 +2361,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#\"Digest": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#\"Digest": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "\"Digest",
       "chunks": [
@@ -2224,7 +2369,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#\"Digest": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#\"Digest": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "\"Digest",
       "chunks": [
@@ -2232,7 +2377,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorComponent": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorComponent",
       "chunks": [
@@ -2240,7 +2385,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorComponent": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorComponent",
       "chunks": [
@@ -2248,7 +2393,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorStyles": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#errorStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorStyles",
       "chunks": [
@@ -2256,7 +2401,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorStyles": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#errorStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorStyles",
       "chunks": [
@@ -2264,7 +2409,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\error-boundary.js#value": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\error-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "value",
       "chunks": [
@@ -2272,7 +2417,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#value": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "value",
       "chunks": [
@@ -2280,7 +2425,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -2288,7 +2433,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -2296,7 +2441,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -2304,7 +2449,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -2312,7 +2457,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -2320,7 +2465,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -2328,7 +2473,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -2336,7 +2481,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -2344,7 +2489,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -2352,7 +2497,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -2360,7 +2505,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirect": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirect": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirect",
       "chunks": [
@@ -2368,7 +2513,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirect": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirect": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirect",
       "chunks": [
@@ -2376,7 +2521,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirectType": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#redirectType": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirectType",
       "chunks": [
@@ -2384,7 +2529,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirectType": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#redirectType": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirectType",
       "chunks": [
@@ -2392,7 +2537,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#reset": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2400,7 +2545,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#reset": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2408,7 +2553,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#router": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "router",
       "chunks": [
@@ -2416,7 +2561,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#router": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "router",
       "chunks": [
@@ -2424,7 +2569,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#value": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "value",
       "chunks": [
@@ -2432,7 +2577,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#value": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "value",
       "chunks": [
@@ -2440,7 +2585,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -2448,7 +2593,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -2456,7 +2601,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -2464,7 +2609,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -2472,7 +2617,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -2480,7 +2625,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -2488,7 +2633,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -2496,7 +2641,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -2504,7 +2649,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -2512,7 +2657,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -2520,7 +2665,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -2528,7 +2673,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -2536,7 +2681,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -2544,7 +2689,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -2552,7 +2697,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -2560,7 +2705,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -2568,7 +2713,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -2576,7 +2721,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -2584,7 +2729,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -2592,7 +2737,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -2600,7 +2745,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -2608,7 +2753,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -2616,7 +2761,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -2624,7 +2769,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -2632,15 +2777,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -2648,7 +2785,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -2656,7 +2801,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -2664,7 +2809,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -2672,7 +2817,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -2680,7 +2825,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -2688,7 +2833,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -2696,15 +2841,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -2712,7 +2849,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -2720,7 +2865,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -2728,7 +2873,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -2736,7 +2881,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -2744,7 +2889,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -2752,7 +2897,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -2760,7 +2905,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -2768,7 +2913,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -2776,7 +2921,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -2784,7 +2929,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -2792,7 +2937,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -2800,7 +2945,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -2808,7 +2953,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -2816,7 +2961,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -2824,7 +2969,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -2832,7 +2977,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -2840,7 +2985,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -2848,7 +2993,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -2856,7 +3001,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -2864,7 +3009,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -2872,158 +3017,160 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\animate.css\\animate.css#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/layout.css",
-        "static/css/app/perfil/page.css",
-        "static/css/app/citas/page.css"
-      ]
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css",
         "static/css/app/registro/page.css",
-        "static/css/app/perfil/page.css",
-        "static/css/app/citas/page.css"
+        "static/css/app/layout.css",
+        "static/css/app/perfil/page.css"
       ]
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\globals.css#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\page.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\layout.js": {
-      "id": "(app-client)/./src/app/layout.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\layout.js#": {
-      "id": "(app-client)/./src/app/layout.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\layout.js#default": {
-      "id": "(app-client)/./src/app/layout.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.module.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/page.css",
+        "static/css/app/registro/page.css",
         "static/css/app/dashboard/page.css",
+        "static/css/app/page.css",
         "static/css/app/dashboard/layout.css",
-        "static/css/app/registro/page.css",
-        "static/css/app/reserva_busq/layout.css",
+        "static/css/app/biblioteca/layout.css",
         "static/css/app/perfil/page.css",
         "static/css/app/perfil/layout.css",
-        "static/css/app/citas/layout.css",
-        "static/css/app/detalle/[id]/layout.css"
+        "static/css/app/reserFrecuentes/page.css",
+        "static/css/app/detalle/[id]/layout.css",
+        "static/css/app/reserFrecuentes/layout.css",
+        "static/css/app/reservas/page.css",
+        "static/css/app/reservas/layout.css",
+        "static/css/app/reserva_busq/layout.css"
       ]
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\link.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\link.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\link.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\client\\link.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.js": {
-      "id": "(app-client)/./src/app/page.js",
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\registro\\page.js": {
+      "id": "(app-client)/./src/app/registro/page.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/registro/page:static/chunks/app/registro/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.js#": {
-      "id": "(app-client)/./src/app/page.js",
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\registro\\page.js#": {
+      "id": "(app-client)/./src/app/registro/page.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/registro/page:static/chunks/app/registro/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\page.js#default": {
-      "id": "(app-client)/./src/app/page.js",
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\registro\\page.js#default": {
+      "id": "(app-client)/./src/app/registro/page.js",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/registro/page:static/chunks/app/registro/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\style.css#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\animate.css\\animate.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css",
+        "static/css/app/perfil/page.css"
+      ]
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\layout.js": {
+      "id": "(app-client)/./src/app/layout.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\layout.js#": {
+      "id": "(app-client)/./src/app/layout.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\layout.js#default": {
+      "id": "(app-client)/./src/app/layout.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\dashboard\\style.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/dashboard/page.css"
       ]
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\page.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\dashboard\\page.js": {
       "id": "(app-client)/./src/app/dashboard/page.js",
       "name": "*",
       "chunks": [
@@ -3031,7 +3178,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\page.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\dashboard\\page.js#": {
       "id": "(app-client)/./src/app/dashboard/page.js",
       "name": "",
       "chunks": [
@@ -3039,7 +3186,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\page.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\dashboard\\page.js#default": {
       "id": "(app-client)/./src/app/dashboard/page.js",
       "name": "default",
       "chunks": [
@@ -3047,7 +3194,31 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\layout.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\page.js": {
+      "id": "(app-client)/./src/app/page.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\page.js#": {
+      "id": "(app-client)/./src/app/page.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\page.js#default": {
+      "id": "(app-client)/./src/app/page.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\dashboard\\layout.js": {
       "id": "(app-client)/./src/app/dashboard/layout.js",
       "name": "*",
       "chunks": [
@@ -3055,7 +3226,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\layout.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\dashboard\\layout.js#": {
       "id": "(app-client)/./src/app/dashboard/layout.js",
       "name": "",
       "chunks": [
@@ -3063,7 +3234,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\dashboard\\layout.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\dashboard\\layout.js#default": {
       "id": "(app-client)/./src/app/dashboard/layout.js",
       "name": "default",
       "chunks": [
@@ -3071,124 +3242,102 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\components\\sidebar.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\components\\sidebar.js": {
       "id": "(app-client)/./src/components/sidebar.js",
       "name": "*",
       "chunks": [
-        "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\components\\sidebar.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\components\\sidebar.js#": {
       "id": "(app-client)/./src/components/sidebar.js",
       "name": "",
       "chunks": [
-        "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\components\\sidebar.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\components\\sidebar.js#default": {
       "id": "(app-client)/./src/components/sidebar.js",
       "name": "default",
       "chunks": [
-        "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\registro\\page.js": {
-      "id": "(app-client)/./src/app/registro/page.js",
-      "name": "*",
-      "chunks": [
-        "app/registro/page:static/chunks/app/registro/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\registro\\page.js#": {
-      "id": "(app-client)/./src/app/registro/page.js",
-      "name": "",
-      "chunks": [
-        "app/registro/page:static/chunks/app/registro/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\registro\\page.js#default": {
-      "id": "(app-client)/./src/app/registro/page.js",
-      "name": "default",
-      "chunks": [
-        "app/registro/page:static/chunks/app/registro/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\style.css#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\biblioteca\\style.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
+        "static/css/app/biblioteca/page.css"
+      ]
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\components\\Chip_Reserva\\style.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/biblioteca/page.css",
         "static/css/app/reserva_busq/page.css"
       ]
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\components\\Chip_Reserva\\style.css#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\biblioteca\\page.js": {
+      "id": "(app-client)/./src/app/biblioteca/page.js",
+      "name": "*",
+      "chunks": [
+        "app/biblioteca/page:static/chunks/app/biblioteca/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\biblioteca\\page.js#": {
+      "id": "(app-client)/./src/app/biblioteca/page.js",
+      "name": "",
+      "chunks": [
+        "app/biblioteca/page:static/chunks/app/biblioteca/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\biblioteca\\page.js#default": {
+      "id": "(app-client)/./src/app/biblioteca/page.js",
+      "name": "default",
+      "chunks": [
+        "app/biblioteca/page:static/chunks/app/biblioteca/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\biblioteca\\layout.js": {
+      "id": "(app-client)/./src/app/biblioteca/layout.js",
+      "name": "*",
+      "chunks": [
+        "app/biblioteca/layout:static/chunks/app/biblioteca/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\biblioteca\\layout.js#": {
+      "id": "(app-client)/./src/app/biblioteca/layout.js",
+      "name": "",
+      "chunks": [
+        "app/biblioteca/layout:static/chunks/app/biblioteca/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\biblioteca\\layout.js#default": {
+      "id": "(app-client)/./src/app/biblioteca/layout.js",
+      "name": "default",
+      "chunks": [
+        "app/biblioteca/layout:static/chunks/app/biblioteca/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\components\\Input\\Input.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/reserva_busq/page.css"
+        "static/css/app/perfil/page.css",
+        "static/css/app/pantalla_registro_libro/page.css"
       ]
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\page.js": {
-      "id": "(app-client)/./src/app/reserva_busq/page.js",
-      "name": "*",
-      "chunks": [
-        "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\page.js#": {
-      "id": "(app-client)/./src/app/reserva_busq/page.js",
-      "name": "",
-      "chunks": [
-        "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\page.js#default": {
-      "id": "(app-client)/./src/app/reserva_busq/page.js",
-      "name": "default",
-      "chunks": [
-        "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\layout.js": {
-      "id": "(app-client)/./src/app/reserva_busq/layout.js",
-      "name": "*",
-      "chunks": [
-        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\layout.js#": {
-      "id": "(app-client)/./src/app/reserva_busq/layout.js",
-      "name": "",
-      "chunks": [
-        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\reserva_busq\\layout.js#default": {
-      "id": "(app-client)/./src/app/reserva_busq/layout.js",
-      "name": "default",
-      "chunks": [
-        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\components\\Chip_Cursos\\style.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/perfil/page.css"
-      ]
-    },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\perfil\\page.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\perfil\\page.js": {
       "id": "(app-client)/./src/app/perfil/page.js",
       "name": "*",
       "chunks": [
@@ -3196,7 +3345,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\perfil\\page.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\perfil\\page.js#": {
       "id": "(app-client)/./src/app/perfil/page.js",
       "name": "",
       "chunks": [
@@ -3204,7 +3353,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\perfil\\page.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\perfil\\page.js#default": {
       "id": "(app-client)/./src/app/perfil/page.js",
       "name": "default",
       "chunks": [
@@ -3212,7 +3361,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\perfil\\layout.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\perfil\\layout.js": {
       "id": "(app-client)/./src/app/perfil/layout.js",
       "name": "*",
       "chunks": [
@@ -3220,7 +3369,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\perfil\\layout.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\perfil\\layout.js#": {
       "id": "(app-client)/./src/app/perfil/layout.js",
       "name": "",
       "chunks": [
@@ -3228,7 +3377,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\perfil\\layout.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\perfil\\layout.js#default": {
       "id": "(app-client)/./src/app/perfil/layout.js",
       "name": "default",
       "chunks": [
@@ -3236,69 +3385,76 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\citas.css#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserFrecuentes\\style.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/citas/page.css"
+        "static/css/app/reserFrecuentes/page.css"
       ]
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\page.js": {
-      "id": "(app-client)/./src/app/citas/page.js",
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserFrecuentes\\page.js": {
+      "id": "(app-client)/./src/app/reserFrecuentes/page.js",
       "name": "*",
       "chunks": [
-        "app/citas/page:static/chunks/app/citas/page.js"
+        "app/reserFrecuentes/page:static/chunks/app/reserFrecuentes/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\page.js#": {
-      "id": "(app-client)/./src/app/citas/page.js",
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserFrecuentes\\page.js#": {
+      "id": "(app-client)/./src/app/reserFrecuentes/page.js",
       "name": "",
       "chunks": [
-        "app/citas/page:static/chunks/app/citas/page.js"
+        "app/reserFrecuentes/page:static/chunks/app/reserFrecuentes/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\page.js#default": {
-      "id": "(app-client)/./src/app/citas/page.js",
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserFrecuentes\\page.js#default": {
+      "id": "(app-client)/./src/app/reserFrecuentes/page.js",
       "name": "default",
       "chunks": [
-        "app/citas/page:static/chunks/app/citas/page.js"
+        "app/reserFrecuentes/page:static/chunks/app/reserFrecuentes/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\layout.js": {
-      "id": "(app-client)/./src/app/citas/layout.js",
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\pantalla_registro_libro\\page.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/pantalla_registro_libro/page.css"
+      ]
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\pantalla_registro_libro\\page.js": {
+      "id": "(app-client)/./src/app/pantalla_registro_libro/page.js",
       "name": "*",
       "chunks": [
-        "app/citas/layout:static/chunks/app/citas/layout.js"
+        "app/pantalla_registro_libro/page:static/chunks/app/pantalla_registro_libro/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\layout.js#": {
-      "id": "(app-client)/./src/app/citas/layout.js",
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\pantalla_registro_libro\\page.js#": {
+      "id": "(app-client)/./src/app/pantalla_registro_libro/page.js",
       "name": "",
       "chunks": [
-        "app/citas/layout:static/chunks/app/citas/layout.js"
+        "app/pantalla_registro_libro/page:static/chunks/app/pantalla_registro_libro/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\citas\\layout.js#default": {
-      "id": "(app-client)/./src/app/citas/layout.js",
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\pantalla_registro_libro\\page.js#default": {
+      "id": "(app-client)/./src/app/pantalla_registro_libro/page.js",
       "name": "default",
       "chunks": [
-        "app/citas/layout:static/chunks/app/citas/layout.js"
+        "app/pantalla_registro_libro/page:static/chunks/app/pantalla_registro_libro/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\style.css#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\detalle\\[id]\\style.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/detalle/[id]/page.css"
       ]
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\page.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\detalle\\[id]\\page.js": {
       "id": "(app-client)/./src/app/detalle/[id]/page.js",
       "name": "*",
       "chunks": [
@@ -3306,7 +3462,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\page.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\detalle\\[id]\\page.js#": {
       "id": "(app-client)/./src/app/detalle/[id]/page.js",
       "name": "",
       "chunks": [
@@ -3314,7 +3470,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\page.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\detalle\\[id]\\page.js#default": {
       "id": "(app-client)/./src/app/detalle/[id]/page.js",
       "name": "default",
       "chunks": [
@@ -3322,7 +3478,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\layout.js": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\detalle\\[id]\\layout.js": {
       "id": "(app-client)/./src/app/detalle/[id]/layout.js",
       "name": "*",
       "chunks": [
@@ -3330,7 +3486,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\layout.js#": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\detalle\\[id]\\layout.js#": {
       "id": "(app-client)/./src/app/detalle/[id]/layout.js",
       "name": "",
       "chunks": [
@@ -3338,11 +3494,145 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\camay\\Documentos\\GitHub\\PrograWeb\\src\\app\\detalle\\[id]\\layout.js#default": {
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\detalle\\[id]\\layout.js#default": {
       "id": "(app-client)/./src/app/detalle/[id]/layout.js",
       "name": "default",
       "chunks": [
         "app/detalle/[id]/layout:static/chunks/app/detalle/[id]/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserFrecuentes\\layout.js": {
+      "id": "(app-client)/./src/app/reserFrecuentes/layout.js",
+      "name": "*",
+      "chunks": [
+        "app/reserFrecuentes/layout:static/chunks/app/reserFrecuentes/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserFrecuentes\\layout.js#": {
+      "id": "(app-client)/./src/app/reserFrecuentes/layout.js",
+      "name": "",
+      "chunks": [
+        "app/reserFrecuentes/layout:static/chunks/app/reserFrecuentes/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserFrecuentes\\layout.js#default": {
+      "id": "(app-client)/./src/app/reserFrecuentes/layout.js",
+      "name": "default",
+      "chunks": [
+        "app/reserFrecuentes/layout:static/chunks/app/reserFrecuentes/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserva_busq\\style.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/reserva_busq/page.css"
+      ]
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserva_busq\\page.js": {
+      "id": "(app-client)/./src/app/reserva_busq/page.js",
+      "name": "*",
+      "chunks": [
+        "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserva_busq\\page.js#": {
+      "id": "(app-client)/./src/app/reserva_busq/page.js",
+      "name": "",
+      "chunks": [
+        "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserva_busq\\page.js#default": {
+      "id": "(app-client)/./src/app/reserva_busq/page.js",
+      "name": "default",
+      "chunks": [
+        "app/reserva_busq/page:static/chunks/app/reserva_busq/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reservas\\style.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/reservas/page.css"
+      ]
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reservas\\page.js": {
+      "id": "(app-client)/./src/app/reservas/page.js",
+      "name": "*",
+      "chunks": [
+        "app/reservas/page:static/chunks/app/reservas/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reservas\\page.js#": {
+      "id": "(app-client)/./src/app/reservas/page.js",
+      "name": "",
+      "chunks": [
+        "app/reservas/page:static/chunks/app/reservas/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reservas\\page.js#default": {
+      "id": "(app-client)/./src/app/reservas/page.js",
+      "name": "default",
+      "chunks": [
+        "app/reservas/page:static/chunks/app/reservas/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reservas\\layout.js": {
+      "id": "(app-client)/./src/app/reservas/layout.js",
+      "name": "*",
+      "chunks": [
+        "app/reservas/layout:static/chunks/app/reservas/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reservas\\layout.js#": {
+      "id": "(app-client)/./src/app/reservas/layout.js",
+      "name": "",
+      "chunks": [
+        "app/reservas/layout:static/chunks/app/reservas/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reservas\\layout.js#default": {
+      "id": "(app-client)/./src/app/reservas/layout.js",
+      "name": "default",
+      "chunks": [
+        "app/reservas/layout:static/chunks/app/reservas/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserva_busq\\layout.js": {
+      "id": "(app-client)/./src/app/reserva_busq/layout.js",
+      "name": "*",
+      "chunks": [
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserva_busq\\layout.js#": {
+      "id": "(app-client)/./src/app/reserva_busq/layout.js",
+      "name": "",
+      "chunks": [
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\camay\\Documentos\\GitHub\\Grupo-6\\src\\app\\reserva_busq\\layout.js#default": {
+      "id": "(app-client)/./src/app/reserva_busq/layout.js",
+      "name": "default",
+      "chunks": [
+        "app/reserva_busq/layout:static/chunks/app/reserva_busq/layout.js"
       ],
       "async": false
     }
