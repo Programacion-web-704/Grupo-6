@@ -23,18 +23,6 @@ ruta.post('/login', async(req,res) => {
             res.status(200).send("error")
         }
     }
-    
-    if(data.nombre == undefined)
-    {
-        let usuario = await db.Usuario.findAll();
-    
-        if ( usuario ) {
-            res.status(200).json(usuario)
-        } else {
-            res.status(200).send("error")
-        }
-
-    }
 
 });
 

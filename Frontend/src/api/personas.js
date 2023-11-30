@@ -12,7 +12,7 @@ const findLogin = async(data) => await axios({
     url: 'http://localhost:3080/personas/login',
     headers: {}, 
     data: {
-      nombre: data.nombre,
+      email: data.email,
       password: data.password
     }
   });
