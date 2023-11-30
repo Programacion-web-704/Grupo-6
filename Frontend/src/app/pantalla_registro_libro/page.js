@@ -56,7 +56,7 @@ const pantalla_registro_libro = () => {
           </div>
           <div className="col-md-6">
               <label htmlFor="inputNewPassword" className="form-label">autor</label>
-              <input type="password" className="form-control" id="inputNewPassword"
+              <input type="text" className="form-control" id="inputNewPassword"
                   value={ autor } 
                   onChange={e => setAutor(e.target.value)}
                   required
@@ -64,7 +64,7 @@ const pantalla_registro_libro = () => {
           </div>
           <div className="col-md-6 offset-md-6">
               <label htmlFor="inputRepeatPassword" className="form-label">ISBN</label>
-              <input type="password" className="form-control" id="inputRepeatPassword"
+              <input type="text" className="form-control" id="inputRepeatPassword"
                   value={ isbn } 
                   onChange={e => setIsbn(e.target.value)}
                   required
@@ -72,7 +72,7 @@ const pantalla_registro_libro = () => {
           </div>
           <div className="col-md-6 offset-md-6">
               <label htmlFor="inputRepeatPassword" className="form-label">Categoria</label>
-              <input type="password" className="form-control" id="inputRepeatPassword"
+              <input type="text" className="form-control" id="inputRepeatPassword"
                   value={ serieOTipo } 
                   onChange={e => setSerieOTipo(e.target.value)}
                   required
@@ -80,7 +80,7 @@ const pantalla_registro_libro = () => {
           </div>
           <div className="col-md-6 offset-md-6">
               <label htmlFor="inputRepeatPassword" className="form-label">Año</label>
-              <input type="password" className="form-control" id="inputRepeatPassword"
+              <input type="number" className="form-control" id="inputRepeatPassword"
                   value={ anio } 
                   onChange={e => setAnio(e.target.value)}
                   required
@@ -88,7 +88,7 @@ const pantalla_registro_libro = () => {
           </div>
           <div className="col-md-6 offset-md-6">
               <label htmlFor="inputRepeatPassword" className="form-label">Editorial</label>
-              <input type="password" className="form-control" id="inputRepeatPassword"
+              <input type="text" className="form-control" id="inputRepeatPassword"
                   value={ editorial } 
                   onChange={e => setEditorial(e.target.value)}
                   required

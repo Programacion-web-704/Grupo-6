@@ -38,7 +38,7 @@ const Login = () => {
         //const sesionU = usuarios.find((e) => e.email == usuario && e.password == clave );
 
         var dataJson = {
-            nombre: login_user,
+            email: login_user,
             password: login_password
         }
 
@@ -88,15 +88,12 @@ const Login = () => {
         <main className={styles.main}>
             <div className="card">
                 <div>
-                    <h1 style={{margin:'20px'}}>Sistemas de Citas para Atención de Citas</h1>
-                </div>
-                <div className='py-3 px-3 d-flex items-align-center justify-content-center'>
-                    <FontAwesomeIcon icon={ faUserLock } style={{fontSize: '12em'}} />
+                    <h1 style={{margin:'20px'}}>Biblioteca</h1>
                 </div>
                 <div className="card-body pt-0 pb-5 px-3">
                     <form method="post" onSubmit={submitForm}>
                         <div className="mb-3">
-                            <label htmlFor="usuario" className="form-label" style={{color: '#6c25be', fontWeight: 'bold'}}>Usuario</label>
+                            <label htmlFor="usuario" className="form-label" style={{color: '#6c25be', fontWeight: 'bold'}}>Email</label>
                             <input type="text" className="form-control" id="usuario" aria-describedby="emailHelp" style={{color: 'gray'}} value={ login_user } onChange={e => setLoginUser(e.target.value)} required/>
                         </div>
                         <div className="mb-3">
@@ -105,7 +102,6 @@ const Login = () => {
                         </div>
                         <div className="d-flex row-gap-2 flex-column align-items-center">
                             <Link href="/registro" style={{color: '#6c25be'}}>Registro de nuevo usuario</Link>
-                            <a href='#' data-bs-toggle="modal" data-bs-target="#exampleModal" style={{color: '#6c25be'}}> Olvidé mi contraseña </a>
                             <button type="submit" className="btn btn-primary" style={{color:'white', backgroundColor: '#a254b6', border: 'none    '}}>Ingresar</button>
                         </div>
                     </form>

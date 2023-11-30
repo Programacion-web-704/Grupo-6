@@ -168,7 +168,7 @@ export default function Dashboard() {
                                 <div id="datos_usuario" className="mb-3">
                                     <div className="row mb-3">
                                         <div className="col-md-6">
-                                            <label htmlFor="inputUsuario" className="form-label">Usuario</label>
+                                            <label htmlFor="inputUsuario" className="form-label">Email</label>
                                             <input type="text" className="form-control" id="inputUsuario"
                                                 value={ usuario } 
                                                 onChange={e => setUsuario(e.target.value)}

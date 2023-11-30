@@ -9,10 +9,10 @@ ruta.post('/login', async(req,res) => {
 
     let data = req.body;
 
-    if(data.nombre != undefined){
+    if(data.email != undefined){
         let usuario = await db.Usuario.findAll({
             where: {
-                nombre: data.nombre,
+                email: data.email,
                 password: data.password
             }
         });
